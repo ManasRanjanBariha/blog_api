@@ -9,3 +9,4 @@ const responseFormatter=(statusCode,success,message,data={})=>
     }
     return response;
 }
+module.exports=responseFormatter;
